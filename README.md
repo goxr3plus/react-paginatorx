@@ -4,10 +4,14 @@ A ReactJS component that creates a pagination .
 ![image](https://user-images.githubusercontent.com/20374208/67392023-77849800-f5a8-11e9-8cd9-95e6eed9bdf0.png)
 
 
-# TODO
-* Add more functionality like [ Go To Page ]
-* Provide more listeners
-* Publish it on npm central
+# Functionality
+- **TODO 🚧**
+  - Add more functionality like [ Go To Page ]
+  - Provide more listeners
+  - Publish it on npm central
+- **Done ✔️**
+  - Provide basic functionality
+....
 
 # Example Usage 
 
