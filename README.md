@@ -13,8 +13,7 @@ A ReactJS component that creates a pagination .
 
 ```JS
 import React, { Component } from 'react'
-
-import Paginator from './../../components/Paginator/index'
+import Paginator from 'Paginator'
 
 class Example extends Component {
   constructor(props) {
