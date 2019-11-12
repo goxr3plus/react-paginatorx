@@ -32,9 +32,9 @@ class Example extends Component {
     )
     
     return (
-              <div style={{ marginTop: '10px', marginRight: '15px' }} className="pull-right">
-                {paginator}
-              </div>
-           )
+          <div style={{ marginTop: '10px', marginRight: '15px' }}>
+            {paginator}
+           </div>
+   )
  }
 }   
