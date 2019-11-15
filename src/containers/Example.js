@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Paginator from "Paginator";
+import Paginator from "../paginator/Paginator";
 
 export default class Example extends Component {
   constructor(props) {
@@ -25,7 +25,7 @@ export default class Example extends Component {
     const paginator = (
       <Paginator
         allRecords={items}
-        pageLimit={3}
+        pageLimit={1}
         currentPage={1}
         pageNeighbours={1}
         onPageChanged={this.onPageChanged}
@@ -33,7 +33,10 @@ export default class Example extends Component {
     );
 
     return (
-      <div style={{ marginTop: "10px", marginRight: "15px" }}>{paginator}</div>
+      <div style={{ marginTop: "10px", marginRight: "15px" }}>
+        <h1> Paginator Example</h1>
+        {paginator}
+      </div>
     );
   }
 }
