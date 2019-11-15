@@ -6,11 +6,7 @@
     "@babel/runtime": "^7.7.2",
     "react": "16.11.0",
     "react-dom": "16.11.0",
-    "react-scripts": "3.3.0-next.39",
-    "xterm": "4.3.0-beta9",
-    "xterm-addon-fit": "0.4.0-beta2",
-    "re-resizable": "6.1.0",
-    "react-resize-observer": "1.1.1"
+    "react-scripts": "3.3.0-next.39"
   },
   "scripts": {
     "start": "react-scripts start",
