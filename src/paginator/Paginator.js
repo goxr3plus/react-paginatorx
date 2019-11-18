@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import _ from "lodash";
+import "./Paginator.css";
 
 const LEFT_PAGE = "LEFT";
 const RIGHT_PAGE = "RIGHT";
@@ -139,12 +140,13 @@ class Paginator extends Component {
 
   render() {
     // if (!this.state.totalRecords) return null //TO think
-    console.log("Entered Paginator");
 
     if (this.state.totalPages === 1) return null;
 
     const { currentPage } = this.state;
     const pages = this.fetchPageNumbers();
+
+    console.log("Reached here");
 
     return (
       <div>
